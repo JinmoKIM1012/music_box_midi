@@ -17,7 +17,7 @@ Git의 설치 방법 및 Github의 사용 방법은 다음 링크들을 참고�
 
 >https://coding-factory.tistory.com/245
 >https://tagilog.tistory.com/377
-
+#
 ## Git에서 쓰이는 주요 용어 및 명령어
 ### 주요 용어
 #### 로컬 깃 저장소(Local Git Repository) 및 원격 깃 저장소(Remote Git Repository)
@@ -107,12 +107,12 @@ git commit만 사용한 후 vim과 같은 에디터를 이용하여 커밋 메�
 #### git pull
 원격 저장소의 최신 버전을 로컬로 가져오기 위해 사용하는 명령어이다. push와 마찬가지로, 추후 병합 시의 무수한 충돌을 
 방지하기 위해 작업 전에 pull을 하는 것을 습관화하여야 한다.
-
+#
 ## PyCharm에서 Git을 사용하는 방법
 커맨드 라인에서 Git을 사용하는 것도 익숙해지면 편리하긴 하지만, PyCharm에서는 편리하게 그래픽 인터페이스를 통해 Git을 
 사용할 수 있도록 돕고 있다. 아래 링크를 참조하자.
 > [파이참(PyCharm)과 깃허브(Github) 연동하기](https://lsjsj92.tistory.com/364)
-
+#
 ## 그 이외의 그래픽 기반 Git 사용 프로그램
 Sourcetree, GitHub Desktop과 같은 프로그램을 사용하면 브랜치의 흐름 등을 편리하게 눈으로 확인할 수 있다.
 
