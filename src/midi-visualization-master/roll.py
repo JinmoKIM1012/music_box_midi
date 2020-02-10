@@ -216,10 +216,10 @@ class MidiFile(mido.MidiFile):
 
         # draw color bar
 
-        # colors = [mpl.colors.hsv_to_rgb((i / channel_nb, 1, 1)) for i in range(channel_nb)]
-        # cmap = mpl.colors.LinearSegmentedColormap.from_list('my_cmap', colors, 16)
-        # a2 = fig.add_axes([0.05, 0.80, 0.9, 0.15])
-        # cbar = mpl.colorbar.ColorbarBase(a2, cmap=cmap, orientation='horizontal', ticks=list(range(16)))
+        colors = [mpl.colors.hsv_to_rgb((i / channel_nb, 1, 1)) for i in range(channel_nb)]
+        cmap = mpl.colors.LinearSegmentedColormap.from_list('my_cmap', colors, 16)
+        a2 = fig.add_axes([0.05, 0.80, 0.9, 0.15])
+        cbar = mpl.colorbar.ColorbarBase(a2, cmap=cmap, orientation='horizontal', ticks=list(range(16)))
 
         # show piano roll
         plt.draw()
@@ -249,7 +249,7 @@ if __name__ == "__main__":
 
     # get the np array of piano roll image
     roll = mid.get_roll()
-
+    print(roll)
     # draw piano roll by pyplot
     mid.draw_roll()
 
