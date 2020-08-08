@@ -14,6 +14,8 @@ class VideoWindow(QMainWindow, form_class):
         self.setWindowTitle("Orgel")
         self.setGeometry(50, 50, 1000, 760)
 
+        self.fileName = None
+
         self.search_button.clicked.connect(self.loadImageFromFile)
         self.quit_button.clicked.connect(QCoreApplication.instance().quit)
 
